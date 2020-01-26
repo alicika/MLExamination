@@ -1,5 +1,4 @@
-# 【回答：cifar10でDNN学習】
-
+#coding:UTF-8
 import numpy as np
 import keras
 from keras import models
@@ -9,16 +8,16 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from keras.preprocessing.image import img_to_array, load_img
 from sklearn.metrics import f1_score
-from keras.datasets import cifar10  # ★
+from keras.datasets import cifar10
 
 # ===================================================
 # 学習データ準備
 # ===================================================
-(x_train, y_train), (x_test, y_test) = cifar10.load_data()  # ★
+(x_train, y_train), (x_test, y_test) = cifar10.load_data() 
 
 # データ形式をDNNモデルに合わせる（4次元のndarrayから2次元のndarrayへ変更）
-x_train = x_train.reshape(50000, 32 * 32 * 3)  # ★
-x_test = x_test.reshape(10000, 32 * 32 * 3)  # ★
+x_train = x_train.reshape(50000, 32 * 32 * 3) 
+x_test = x_test.reshape(10000, 32 * 32 * 3) 
 
 # データを0.0～1.0へ正規化
 x_train = x_train.astype('float32') / 255.0
