@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e39355f-9bf0-4f65-a18e-e0b7ed0d5805" name="Default Changelist" comment="" />
+    <list default="true" id="2e39355f-9bf0-4f65-a18e-e0b7ed0d5805" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN_COINS_JP/CNN_COINS_JP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN_COINS_JP/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MLExamination.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MLExamination.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +28,10 @@
   <component name="ProjectId" id="1WwBAGMVvMzSN42vPVQkCoPlZxT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,6 +45,35 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="cifar10_precision" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLExamination" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN_CIFAR10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN_CIFAR10/cifar10_precision.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.cifar10_precision" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -46,8 +84,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580050631738</updated>
-      <workItem from="1580050640572" duration="80000" />
+      <workItem from="1580050640572" duration="189000" />
+      <workItem from="1580051992760" duration="2838000" />
+      <workItem from="1580196725145" duration="1721000" />
+      <workItem from="1580229282219" duration="601000" />
+      <workItem from="1580305476509" duration="424000" />
     </task>
+    <task id="LOCAL-00001" summary="trained data sample added.">
+      <created>1580054856326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580054856326</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,10 +108,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="trained data sample added." />
+    <option name="LAST_COMMIT_MESSAGE" value="trained data sample added." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MLExamination$cifar10_precision.coverage" NAME="cifar10_precision Coverage Results" MODIFIED="1580054265790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN_CIFAR10" />
   </component>
 </project>
