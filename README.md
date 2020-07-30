@@ -1,4 +1,3 @@
-# MLExamination
 # これは何？
 
 <br><p>
